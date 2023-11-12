@@ -1,0 +1,23 @@
+.footer {
+    background-image: url("./../../assets/footer_ad0f20f1-29b5-4188-8127-a6667ac6aea9.jpg");
+}
+.input-group {
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    width: 350px !important;
+}
+.input-group input {
+    outline: none !important;
+}
+.butt-form {
+    width: 50px;
+}
+.footer a:hover {
+    color: rgb(224, 28, 28) !important;
+}
+.footer ul li.after::after {
+    content: "|";
+    padding: 0 25px;
+    color: #fff;
+}

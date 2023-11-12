@@ -1,0 +1,131 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+.slid1 {
+    background-image: url("./../../assets/phono-slider-1.jpg");
+    background-size: cover !important;
+}
+.slid2 {
+    background-image: url("./../../assets/phono-slider-2.jpg");
+    background-size: cover !important;
+}
+.slid3 {
+    background-image: url("./../../assets/phono-slider-3.jpg");
+    background-size: cover !important;
+}
+
+.butt-slide {
+    background-color: black;
+    border-radius: 40px !important;
+    border-color: rgb(255, 255, 255);
+    box-shadow: none !important; 
+}
+.butt-slide2 {
+    background-color: white;
+    border: 2 solid black !important;
+    border-radius: 40px !important;
+
+}
+.butt-slide:hover , .butt-slide2:hover {
+    background-color: rgb(226, 3, 3);
+    border: none;
+}
+
+.sl-1 {
+    max-width: 800px !important;
+    position: absolute !important;
+    color: white;
+    text-align: end;
+}
+
+.sl-2 {
+    padding-left: 40px !important;
+    max-width: 900px !important;
+   
+}
+.sl-1 h2 , .sl-2 h2{
+    font-size: 95px;
+    font-weight: 700;
+    letter-spacing: 2px !important;
+}
+.sl-1 h2.p , .sl-2 h2.p {
+    font-size: 25px;
+}
+.sl-1 h2.p , .sl-2 h2.p{
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        transform: translateX(-20px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.sl-1 h2.k , .sl-1 button.butt-slide , .sl-2 h2.k , .sl-2 button.butt-slide2{
+    animation-duration: 1s !important;
+    animation-name: slidein2 !important;
+}
+@keyframes slidein2 {
+    from {
+        transform: translateX(20px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 767px) {
+    .sl-1 h2 , .sl-2 h2{
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 2px !important;
+    }
+    .sl-1 h2.p , .sl-2 h2.p {
+        font-size: 22px;
+        margin: 0.5px;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .sl-1 h2 , .sl-2 h2{
+        font-size: 27px;
+        font-weight: 700;
+        margin: 0.5px;
+        text-align: center;
+        color: white !important;
+    }
+    .sl-1 h2.p , .sl-2 h2.p {
+        font-size: 18px;
+        margin: 0.5px;
+        text-align: center;
+        color: white !important;
+    }
+    .slid1 , .slid2 , .slid3{
+        justify-content: center !important;
+    }
+    .sl-1 , .sl-2 {
+        background-color: black !important;
+        height: auto !important;
+        width: 300px !important;
+        padding: 5px !important;
+        align-items: center !important;
+    }
+}
+@media (max-width: 350px) {
+    .sl-1 h2 , .sl-2 h2{
+        color: white !important;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0.5px;
+        text-align: center;
+    }
+    .sl-1 h2.p , .sl-2 h2.p {
+        color: white !important;
+        font-size: 16px;
+        margin: 0.5px;
+        text-align: center;
+    }
+}

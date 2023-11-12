@@ -1,0 +1,18 @@
+.con {
+    padding-bottom: 305px !important;
+}
+.exp {
+    text-align: center !important;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+@media (max-width: 576px){
+    .box , .desc {
+        justify-content: center;
+        align-items: center;
+    }
+    .desc h5 , .desc p {
+        text-align: center !important;
+    }
+}

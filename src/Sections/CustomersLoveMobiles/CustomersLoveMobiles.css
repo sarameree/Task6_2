@@ -1,0 +1,17 @@
+.bg {
+    background-image: url("./../../assets/footer_ad0f20f1-29b5-4188-8127-a6667ac6aea9.jpg");
+    background-size: contain;
+}
+.accordion-button {
+    background-color: transparent !important;
+    color: white !important;
+    border: none;
+}
+.accordion-item {
+    border: none !important;
+}
+.accordion-button::after {
+    content: "+" !important;
+    background-image: none !important;
+}
+

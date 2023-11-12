@@ -1,0 +1,59 @@
+.slideBody {
+    width: 95% !important;
+}
+.product {
+    width: 250px !important;
+    height: 400px;
+    margin-left: 40px !important;
+    background: rgb(238, 238, 238);
+    border-radius: 10px;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-card {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-card {
+    height: 30%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-card img {
+    width: 90%;
+    height: 90%;
+}
+.price-mob {
+    color: rgb(250, 35, 35);
+}
+.slick-prev {
+    left: 0% !important;
+    z-index: 22 !important;
+    
+}
+.slick-next {
+    right: 0% !important;
+}
+.slick-prev::before , .slick-next::before {
+    border-radius: 50%;
+    color: rgba(66, 66, 66, 0.829);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
